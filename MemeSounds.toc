@@ -1,0 +1,12 @@
+## Interface: 11505
+## Title: MemeSounds
+## Notes: The idea behind this addon is to help my dumb ass with the warlock rotation i classic WOW
+## Author: Lucas Nyvkist 
+## Version: 0.1
+## SavedVariables: MyAddonDB
+# Libraries
+libs/Ace3/AceAddon-3.0/AceAddon-3.0.lua
+libs/Ace3/AceDB-3.0/AceDB-3.0.lua
+libs/LibDBIcon-1.0/embeds.xml
+
+MemeSounds.lua

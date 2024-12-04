@@ -1,0 +1,43 @@
+{
+  "Lua.runtime.version": "Lua 5.1",
+  "Lua.runtime.builtin": {
+    "basic": "disable",
+    "debug": "disable",
+    "io": "disable",
+    "math": "disable",
+    "os": "disable",
+    "package": "disable",
+    "string": "disable",
+    "table": "disable",
+    "utf8": "disable"
+  },
+  "Lua.workspace.library": [
+    "${addons}/lua-cjson/module/library",
+    "~/.vscode/extensions/ketho.wow-api-0.17.9/Annotations"
+  ],
+  "Lua.diagnostics.globals": [
+    "SlashCmdList",
+    "UISpecialFrames",
+    "require",
+    "io",
+    "AddonCompartmentFrame",
+    "NORMAL_FONT_COLOR_CODE",
+    "CLOSE",
+    "ReloadUI",
+    "DEFAULT_CHAT_FRAME",
+    "hash_SlashCmdList",
+    "ColorPickerFrame",
+    "NOT_BOUND",
+    "IsSecureCmd",
+    "NUM_CHAT_WINDOWS",
+    "ChatEdit_GetActiveWindow",
+    "OKAY",
+    "FONT_COLOR_CODE_CLOSE",
+    "SetDesaturation",
+    "ACCEPT",
+    "SELECTED_CHAT_FRAME",
+    "CANCEL",
+    "Settings"
+  ],
+  "Lua.workspace.checkThirdParty": false
+}
